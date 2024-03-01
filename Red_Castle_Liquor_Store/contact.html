@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="redcastle.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="navbar_container"></div>
-            <a href="/" id="navbar_logo">Red Castle Liquor Store</a>
+            <a href="red_castle.html" id="navbar_logo">RedCastleLiquors</a>
             <div class="navbar_toggle" id="menu-mobile">  
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -19,15 +19,69 @@
             </div>
                 <ul class="navbar_menu">
                     <li class="navbar_item"><a href="red_castle.html"class="navbar_links">Home</a></li>
-                    <li class="navbar_item"><a href="contact.html" class="navbar_links">Contact Us</a></li>
-                    <li class="navbar_item"><a href="about.html" class="navbar_links">About Us</a></li>
+                    <!-- <li class="navbar_item"><a href="contact.html" class="navbar_links">Contact Us</a></li> -->
+                    <li class="navbar_item"><a href="about.html" class="navbar_links">About</a></li>
                     <li class="navbar_item"><a href="products.html"class="navbar_links">Products</a></li>
                     <!-- <li class="navbar_btn"><a href="/"class="button">Contact Us</a></li>  -->
                 </ul>
         </div>
     </nav>
 
+    
+    
+    <main class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="/submit" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+    
 
+
+    <div class="footer_container">
+        <div class="footer_links">
+            <div class="footer_link_wrapper">
+                <div class="footer_link_items">
+                    <h2>About Us</h2>
+                    <a href="/">How it works</a>
+                    <a href="/">Testimonals</a>
+                    <a href="/">Careers</a>
+                    <a href="/">Terms</a>
+                </div>
+                <div class="footer_link_items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Contact</a>
+                    <a href="/">Support</a>
+                </div>
+            </div>
+            <div class="footer_link_wrapper">
+                <div class="footer_link_items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a>
+                    <a href="/">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="social_media">
+            <div class="social_media_wrapper">
+                <div class="footer_logo">
+                    <!-- HERE YOU ADD THE LOGO <i class="----"></i> -->
+                    <a href="/" id="footer_logo">Red Castle Liquors</a>
+                </div>
+                <p class="website_right">copyright Red Castle Liquors. All rights reserved</p>
+                <div class="social_icons">
+                    <a href="" class="social_icon_links" target="_blank"><i class="Instagram"></i></a>
+                    <a href="" class="social_icon_links" target="_blank"><i class="Facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="redCastle.js"></script>
