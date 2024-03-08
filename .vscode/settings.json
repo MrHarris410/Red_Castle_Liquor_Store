@@ -1,0 +1,7 @@
+{
+    "extensions.webWorker": true,
+    "notebook.consolidatedRunButton": true,
+    "githubIssues.createInsertFormat": "url",
+    "githubPullRequests.assignCreated": "${user}",
+    "githubPullRequests.notifications": "pullRequests"
+}
